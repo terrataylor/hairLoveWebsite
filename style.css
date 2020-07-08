@@ -1,0 +1,248 @@
+.navbar {
+	text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+	width: 100%;
+	font-size: 20px;
+}
+
+.navbar a {
+ 
+  
+  text-transform: uppercase;
+  padding: 12px;
+  text-decoration: none;
+  margin-left: 20px;
+  color: saddlebrown;
+}
+
+.navbar a:hover {
+  background-color: aliceblue;
+}
+
+.active {
+  background-color: hotpink;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.title {
+	color: #AFA857;
+	font-family: 'Merienda One', cursive;
+	font-size: 60px;
+	
+}
+
+.homePage {
+  background-image: url(image/369e688eda41ac31f39eae45396ff174.jpg);
+	
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+
+
+.aboutPage {
+	width: 70%;
+	margin-top: 100px;
+	margin-left: 50px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+}
+
+img {
+    width: 800px;
+    height: 600px;
+
+  }
+
+h4 {
+	font-family: 'Merienda One', cursive;
+	font-size: 30px;
+	padding-top: 30px;
+	
+}
+  #buttons {
+    text-align: center;
+  }
+
+  .button {
+    background-color: #10F4EF;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	  font-family: 'Dancing Script', cursive;
+  }
+
+  .slide-container {
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+
+  }
+
+  .image-container {
+    width: 2400px;
+    height: 600px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+  }
+
+  .slider-image {
+      float: left;
+      margin: 0px;
+      padding: 0px;
+  }
+
+  .button-container {
+    top: -20px;
+    position: relative;
+  }
+
+  .slider-button {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  #slider-image-1:target ~ .image-container {
+    left: 0px;
+  }
+
+  #slider-image-2:target ~ .image-container {
+    left: -800px;
+  }
+
+  #slider-image-2:target ~ .image-container {
+    left: -1600px;
+  }
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: black;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+	font-family: 'Dancing Script', cursive;
+	
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: lightpink;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.numbertext img {
+	text-align: center;
+	width: 800px;
+    height: 600px;
+}
+
+
+.sections {
+	background-color: lightpink;
+}
+
+.section {
+	background-color: aliceblue;
+}
+
+.paragraphs {
+	font-family: 'Permanent Marker', cursive;
+}
