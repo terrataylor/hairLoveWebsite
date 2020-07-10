@@ -53,7 +53,7 @@
 			
 			</section>
 			
-			<!--  Try not to use the center tag, use CSS to center your content instead -->
+			<!--*********************    Try not to use the center tag, use CSS to center your content instead  *********************   -->
 	      	<center><section id="hairA" class="sections">
 
 	
@@ -82,7 +82,7 @@
 						    </div>
 				</section> </center>
 			
-			<!-- Great use of semantic HTML tags such as article and section!!!  -->
+			<!--*********************   Great use of semantic HTML tags such as article and section!!! *********************   -->
 			   <center> <section id="hairC" class="sections">
 					
 					  <article>
@@ -145,15 +145,17 @@
 							  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 							  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 							</div>
-							<br>
+							<br><!--  *********************  Avoid using the br tag, use css instead *********************  -->
 
 							<div style="text-align:center">
 							  <span class="dot" onclick="currentSlide(1)"></span>
 							  <span class="dot" onclick="currentSlide(2)"></span>
 							  <span class="dot" onclick="currentSlide(3)"></span>
 							</div>
-							
+							<!---  *********************  Make sure that you put your script right before your closing body tag.  Should be the last thing within your body tag **************** ----> 
 							<script>
+								
+								//Nice use of JavaScript!!!!!!!!!
 							  document.getElementById("demo").innerHTML = "My First JavaScript";
 
 							  var slideIndex = 1;
@@ -191,3 +193,5 @@
 
 
 					</body>
+
+<!-- *********************  Don't forget to have a closing html tag like this  </html>   *********************  --->
