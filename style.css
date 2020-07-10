@@ -22,7 +22,7 @@
 .active {
   background-color: hotpink;
 }
-
+/* ******************* Make sure you put your media queries at the bottom of the page ****************************/
 @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
@@ -238,7 +238,7 @@ h4 {
 .sections {
 	background-color: lightpink;
 }
-
+/**************  When accessing the <section> tag you don't need to put a period before it.  if you have a class named section on the element this will work  ******/
 .section {
 	background-color: aliceblue;
 }
